@@ -31,6 +31,7 @@ class TestRoom(unittest.TestCase):
         self.song_3 = Song('Big Poppa', 'The Notorious B.I.G')
         self.song_4 = Song('Still D.R.E', 'Dr. Dre ft. Snoop Dogg')
 
+
 #6
     def test_guest_is_old_enough__returns_true(self):
         self.assertEqual(True, self.room_1.guest_is_old_enough(self.guest_1))
